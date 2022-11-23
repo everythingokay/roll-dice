@@ -1,4 +1,4 @@
-import React,{ Component } extends 'react';
+import React, { Component } from 'react';
 
 class Dice extends Component {
     render() {
@@ -6,4 +6,6 @@ class Dice extends Component {
             <h1>Dice !</h1>
         )
     }
-}
+};
+
+export default Dice;
