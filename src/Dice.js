@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './Dice.css';
 
 class Dice extends Component {
     render() {
         return (
-            <h1>Dice !</h1>
+            <i class={`dice fas fa-dice-${this.props.face}`}></i>
         )
     }
 };
