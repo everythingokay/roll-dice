@@ -1,15 +1,10 @@
 import './App.css';
-import Dice from './Dice.js';
+import Roll from './Roll';
 
 function App() {
   return (
     <div className="App">
-        <Dice face="five"/>
-        <Dice face="six"/>
-        <Dice face="four"/>
-        <Dice face="two"/>
-        <Dice face="one"/>
-        <Dice face="three"/>
+        <Roll />
     </div>
   );
 }
